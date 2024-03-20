@@ -1,0 +1,49 @@
+.bg {
+  background-image: linear-gradient(
+    to bottom,
+    #bf0411 0,
+    #bf0411 70%,
+    black 30%
+  );
+}
+
+header .row {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+header section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header section ul li {
+  display: flex;
+  align-items: center;
+}
+
+header section ul li img {
+  width: 50px;
+  height: 50px;
+  vertical-align: baseline;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 16px;
+}
+
+header nav ul li {
+  margin: 8px 16px;
+
+  width: auto;
+}
+
+header nav ul li a {
+  align-items: center;
+  color: white;
+}
