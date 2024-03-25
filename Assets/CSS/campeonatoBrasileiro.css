@@ -1,0 +1,71 @@
+.tabelaCampeonatoBrasileiro {
+  justify-content: center;
+}
+
+.tabelaCampeonatoBrasileiro table {
+  margin: 0 96px;
+  border: 2px solid #bf0411;
+  border-radius: 12px;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.tabelaCampeonatoBrasileiro table tr th,
+.tabelaCampeonatoBrasileiro table tr td {
+  padding: 4px 8px;
+}
+
+.tabelaCampeonatoBrasileiro table tr th {
+  font-weight: bold;
+}
+
+.tabelaCampeonatoBrasileiro table tr td {
+  justify-content: center;
+  align-items: center;
+}
+
+.tabelaCampeonatoBrasileiro table tr .posicaoLibertadores {
+  border-left: 2px solid blue;
+}
+.tabelaCampeonatoBrasileiro table tr .posicaoPreLibertadores {
+  border-left: 2px solid orange;
+}
+.tabelaCampeonatoBrasileiro table tr .posicaoSulAmericana {
+  border-left: 2px solid green;
+}
+
+.tabelaCampeonatoBrasileiro table tr .posicaoRebaixamento {
+  border-left: 2px solid red;
+}
+
+.sectionTabelaCampeonatoBrasileiro .legenda {
+  margin: 32px;
+}
+
+.sectionTabelaCampeonatoBrasileiro .legenda ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #bf0411;
+  border-radius: 64px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sectionTabelaCampeonatoBrasileiro .legenda ul li {
+  margin: 0px 16px;
+  list-style-type: square;
+  align-items: center;
+  justify-content: center;
+}
+.sectionTabelaCampeonatoBrasileiro .legenda ul .libertadores::marker {
+  color: blue;
+}
+.sectionTabelaCampeonatoBrasileiro .legenda ul .preLibertadores::marker {
+  color: orange;
+}
+.sectionTabelaCampeonatoBrasileiro .legenda ul .sulAmericana::marker {
+  color: green;
+}
+.sectionTabelaCampeonatoBrasileiro .legenda ul .rebaixamento::marker {
+  color: red;
+}

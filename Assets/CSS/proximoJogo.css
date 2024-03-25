@@ -1,5 +1,26 @@
-.proximoJogo h2 {
-  text-align: center;
-  padding: 48px 0px 12px;
-  border-bottom: 2px solid #bf0411;
+.proximoJogo {
+  align-items: center;
+  justify-content: center;
+}
+
+.proximoJogo img {
+  margin: 0px 32px;
+  height: 250px;
+}
+
+.times {
+  align-items: center;
+}
+
+.times span {
+  margin: 20px;
+}
+
+.infoJogo {
+  align-items: center;
+  margin: 16px;
+}
+
+.infoJogo span {
+  margin: 8px;
 }

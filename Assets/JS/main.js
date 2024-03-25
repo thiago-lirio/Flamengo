@@ -8,7 +8,7 @@ function fazGet(url) {
 }
 
 function main() {
-  console.log(fazGet("https://flamengo-api.vercel.app/api/squad"));
+  console.log(fazGet("test_1486f2594acc6214a966564ed48b47"));
 }
 
 main();
