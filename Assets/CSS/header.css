@@ -29,6 +29,10 @@ header section ul li img {
   height: 50px;
   vertical-align: baseline;
 }
+header section ul li h5 {
+  font-size: 16px;
+  margin: 8px;
+}
 
 header nav ul {
   display: flex;
@@ -46,4 +50,5 @@ header nav ul li {
 header nav ul li a {
   align-items: center;
   color: white;
+  font-size: 16px;
 }

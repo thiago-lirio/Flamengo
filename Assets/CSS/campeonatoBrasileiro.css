@@ -69,3 +69,7 @@
 .sectionTabelaCampeonatoBrasileiro .legenda ul .rebaixamento::marker {
   color: red;
 }
+
+.sectionTabelaCampeonatoBrasileiro h2 {
+  font-size: 24px;
+}

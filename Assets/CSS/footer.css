@@ -1,7 +1,33 @@
-.footer {
+.bgFooter {
   background-color: black;
+}
+.footer {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+.containerFooter {
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.containerMarcas {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bgFooter .containerFooter h5 {
+  color: white;
+  border-bottom: 2px solid #bf0411;
+  padding: 4px;
+  margin: 8px;
 }
 
 .footer h5 {
-  color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
