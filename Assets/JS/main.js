@@ -7,8 +7,33 @@ function fazGet(url) {
   return request.responseText;
 }
 
+function criaInfoGoleiro(goleiro) {
+  divInfoGoleiro = document.createElement("div");
+  imagemGoleiro = document.createElement("img");
+  nomeGoleiro = document.createElement("h4");
+  imagemGoleiro.innerHTML = goleiro.image;
+  nomeGoleiro.innerHTML = goleiro.name;
+
+  divInfoGoleiro.appendChild(imagemGoleiro);
+  divInfoGoleiro.appendChild(nomeGoleiro);
+
+  return divInfoGoleiro;
+}
+
 function main() {
-  console.log(fazGet("test_1486f2594acc6214a966564ed48b47"));
+  let data = fazGet("https://flamengo-api.vercel.app/api/squad");
+  let elenco = JSON.parse(data);
+  console.log(elenco.players.keepers);
+  let infoGoleiro = document.getElementById("infoGoleiro");
+
+  //Para cada jogado colocar a imagem e o nome na tela
+
+  elenco.players.keepers.forEach((element) => {
+    let divInfoGoleiro = criaInfoGoleiro(element);
+    infoGoleiro.appendChild(divInfoGoleiro);
+    //   let
+    //   imagemGoleiro.appendChild(linha);
+  });
 }
 
 main();
