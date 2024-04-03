@@ -1,3 +1,25 @@
 h2 {
+  font-size: 30px;
+}
+
+.tituloPosicao {
   font-size: 24px;
+  border-bottom: 2px solid #bf0411;
+  width: 240px;
+  margin-top: 24px;
+}
+
+.listaJogadores {
+  flex-wrap: wrap;
+}
+
+.jogador {
+  display: flex;
+  align-items: center;
+  margin: 12px 8px;
+}
+
+.jogador h4 {
+  font-size: 18px;
+  margin-top: 8px;
 }
