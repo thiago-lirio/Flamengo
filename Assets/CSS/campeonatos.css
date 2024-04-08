@@ -1,0 +1,60 @@
+h2 {
+  font-size: 24px;
+}
+
+.tabelaLibertadores {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabelaLibertadores table {
+  margin: 8px 16px 16px;
+  border: 2px solid #bf0411;
+  border-radius: 12px;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.4);
+  width: 400px;
+}
+
+.tabelaLibertadores table tr th,
+.tabelaLibertadores table tr td {
+  padding: 4px 8px;
+}
+
+.tabelaLibertadores table tr th {
+  font-weight: bold;
+}
+
+.tabelaLibertadores table tr td {
+  justify-content: center;
+  align-items: center;
+}
+
+.tabelaLibertadores table tbody tr .classificados {
+  border-left: 2px solid blue;
+}
+
+table tbody tr .sulAmericana {
+  border-left: 2px solid orange;
+}
+
+.legenda ul .classificados::marker {
+  color: blue;
+}
+
+.legenda ul .sulAmericana::marker {
+  color: orange;
+}
+
+.campeaoCarioca {
+  align-items: center;
+  justify-content: center;
+}
+
+.campeaoCarioca img {
+  height: 220px;
+}
+
+.campeaoCarioca span {
+  font-size: 24px;
+}

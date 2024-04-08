@@ -9,6 +9,19 @@ h2 {
   margin-top: 24px;
 }
 
+.navegacaoEntreSecoes {
+  justify-content: center;
+}
+
+.itemNavegacaoEntreSecoes {
+  align-items: center;
+  margin: 8px;
+  padding: 8px;
+  border: 2px solid #bf0411;
+  border-radius: 40px;
+  font-size: small;
+}
+
 .listaJogadores {
   flex-wrap: wrap;
 }

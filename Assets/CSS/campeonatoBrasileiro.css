@@ -37,11 +37,11 @@
   border-left: 2px solid red;
 }
 
-.sectionTabelaCampeonatoBrasileiro .legenda {
+.legenda {
   margin: 32px;
 }
 
-.sectionTabelaCampeonatoBrasileiro .legenda ul {
+.legenda ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.sectionTabelaCampeonatoBrasileiro .legenda ul li {
+.legenda ul li {
   margin: 0px 16px;
   list-style-type: square;
   align-items: center;
