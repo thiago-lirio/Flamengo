@@ -51,4 +51,11 @@ header nav ul li a {
   align-items: center;
   color: white;
   font-size: 16px;
+  transition: font-size 0.3s ease;
+}
+
+header nav ul li a:hover {
+  border-bottom: #bf0411 2px solid;
+  padding: 4px;
+  font-size: 20px;
 }

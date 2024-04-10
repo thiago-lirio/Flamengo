@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <script src="../../Assets/JS/main.js" defer></script>
   </head>
   <body>
     <div class="bg">
@@ -69,59 +70,61 @@
       </header>
     </div>
     <main class="container">
-      <section class="column elenco">
-        <h2 class="sectionTittle">Elenco</h2>
-        <br />
+      <h2 class="sectionTittle">Elenco</h2>
+      <br />
+      <div class="menu">
         <nav>
-          <ul class="row navegacaoEntreSecoes">
+          <ul class="row navegacaoEntreSecoes" id="navegacaoEntreSecoes">
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Goleiros</a>
+              <a href="#goleiros">Goleiros</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Zagueiros</a>
+              <a href="#zagueiros">Zagueiros</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Laterais Direito</a>
+              <a href="#lateraisDireitos">Laterais Direito</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Laterais Esquerdo</a>
+              <a href="#lateraisEsquerdos">Laterais Esquerdo</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Volantes</a>
+              <a href="#volantes">Volantes</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Meios de Campo</a>
+              <a href="#meias">Meios de Campo</a>
             </li>
             <li class="itemNavegacaoEntreSecoes">
-              <a href="">Atacantes</a>
+              <a href="#atacantes">Atacantes</a>
             </li>
           </ul>
         </nav>
-        <section class="column goleiros">
+      </div>
+      <section class="column elenco">
+        <section class="column goleiros" id="goleiros">
           <h3 class="tituloPosicao">Goleiros</h3>
           <div class="row listaJogadores" id="infoGoleiro"></div>
         </section>
-        <section class="column zagueiros">
+        <section class="column zagueiros" id="zagueiros">
           <h3 class="tituloPosicao">Zagueiros</h3>
           <div class="row listaJogadores" id="infoZagueiro"></div>
         </section>
-        <section class="column lateriasDireitos">
+        <section class="column lateriasDireitos" id="lateraisDireitos">
           <h3 class="tituloPosicao">Laterais Direito</h3>
           <div class="row listaJogadores" id="infoLateralDireito"></div>
         </section>
-        <section class="column lateraisEsquerdos">
+        <section class="column lateraisEsquerdos" id="lateraisEsquerdos">
           <h3 class="tituloPosicao">Laterias Esquerdos</h3>
           <div class="row listaJogadores" id="infoLateralEsquerdo"></div>
         </section>
-        <section class="column volantes">
+        <section class="column volantes" id="volantes">
           <h3 class="tituloPosicao">Volantes</h3>
           <div class="row listaJogadores" id="infoVolante"></div>
         </section>
-        <section class="column meias">
+        <section class="column meias" id="meias">
           <h3 class="tituloPosicao">Meio-Campos</h3>
           <div class="row listaJogadores" id="infoMeia"></div>
         </section>
-        <section class="column atacantes">
+        <section class="column atacantes" id="atacantes">
           <h3 class="tituloPosicao">Atacantes</h3>
           <div class="row listaJogadores" id="infoAtacante"></div>
         </section>
@@ -217,6 +220,5 @@
         </div>
       </div>
     </footer>
-    <script src="../JS/main.js"></script>
   </body>
 </html>

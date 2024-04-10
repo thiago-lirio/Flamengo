@@ -9,6 +9,18 @@ h2 {
   margin-top: 24px;
 }
 
+.menu {
+  transform: translateY(-50%);
+  justify-content: center;
+  margin-top: 16px;
+  color: #fff;
+  padding: 10px;
+}
+
+section {
+  margin-top: 12px;
+}
+
 .navegacaoEntreSecoes {
   justify-content: center;
 }
@@ -20,6 +32,27 @@ h2 {
   border: 2px solid #bf0411;
   border-radius: 40px;
   font-size: small;
+}
+.itemNavegacaoEntreSecoes a {
+  color: black;
+}
+
+.itemNavegacaoEntreSecoes:hover {
+  color: white;
+  background-color: #bf0411;
+}
+
+.itemNavegacaoEntreSecoes a:hover {
+  color: white;
+  background-color: #bf0411;
+}
+
+.fixed {
+  position: fixed;
+  top: 20px;
+  margin: 24px auto;
+  justify-content: center;
+  transition: top 0.3s;
 }
 
 .listaJogadores {
@@ -35,4 +68,9 @@ h2 {
 .jogador h4 {
   font-size: 18px;
   margin-top: 8px;
+}
+
+.jogador:hover {
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.4);
 }

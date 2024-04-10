@@ -5,4 +5,21 @@
 .cantoTorcida {
   align-items: center;
   justify-content: center;
+  margin: 24px 0px;
+}
+
+.containerVideoELetra {
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  width: 250px;
+  height: 250px;
+  margin: 0px 48px;
+}
+
+.containerVideoELetra p {
+  width: 250px;
+  flex-wrap: nowrap;
 }

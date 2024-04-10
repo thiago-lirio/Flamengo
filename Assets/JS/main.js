@@ -167,6 +167,20 @@ function main() {
     let divInfoAtacante = criaInfoAtacante(element);
     infoAtacante.appendChild(divInfoAtacante);
   });
+
+  window.addEventListener("scroll", function () {
+    var menu = document.querySelector(".menu");
+    var menuPosition = menu.getBoundingClientRect().top;
+    var startPosition = window.innerHeight / 2;
+
+    if (window.pageYOffset > startPosition) {
+      menu.classList.add("fixed");
+      menu.style.top = "0";
+    } else {
+      menu.classList.remove("fixed");
+      menu.style.top = "50%";
+    }
+  });
 }
 
 main();
